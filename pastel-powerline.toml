@@ -5,7 +5,6 @@ $directory\
 $git_branch\
 $git_status\
 [](fg:#394260 bg:#212736)\
-$conda\
 $nodejs\
 $package\
 $python\
@@ -30,7 +29,6 @@ truncation_symbol = "…/"
 "Music" = " "
 "Pictures" = " "
 
-
 [git_branch]
 symbol = ""
 style = "bg:#39426"
@@ -39,14 +37,6 @@ format = '[ $symbol $branch ]($style)'
 [git_status]
 style = "bg:#39426"
 format = '[$all_status$ahead_behind ]($style)'
-
-
-
-[conda]
-symbol = " "
-style = "bg:#212736"
-format = '[[ $symbol $environment ](fg:#769ff0 bg:#212736)]($style)'
-truncation_length = 0
 
 [nodejs]
 symbol = ""
