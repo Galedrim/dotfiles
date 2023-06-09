@@ -31,11 +31,11 @@ truncation_symbol = "…/"
 
 [git_branch]
 symbol = ""
-style = "bg:#39426"
+style = "bg:#394260"
 format = '[ $symbol $branch ]($style)'
 
 [git_status]
-style = "bg:#39426"
+style = "bg:#394260"
 format = '[$all_status$ahead_behind ]($style)'
 
 [nodejs]
