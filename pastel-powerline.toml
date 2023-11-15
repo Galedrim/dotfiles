@@ -5,7 +5,6 @@ $directory\
 $git_branch\
 $git_status\
 [](fg:#394260 bg:#212736)\
-$nodejs\
 $package\
 $python\
 $rust\
@@ -37,11 +36,6 @@ format = '[ $symbol $branch ]($style)'
 [git_status]
 style = "bg:#394260"
 format = '[$all_status$ahead_behind ]($style)'
-
-[nodejs]
-symbol = ""
-style = "bg:#212736"
-format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
 
 [package]
 symbol = " "
