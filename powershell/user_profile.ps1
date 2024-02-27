@@ -21,7 +21,7 @@ Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
 Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' -PSReadlineChordReverseHistory 'Ctrl+r'
 
 # -- Starship Prompt -------------------------------------------------------------------
-$env:STARSHIP_CONFIG = "$HOME\.config\powershell\starship.toml"
+$env:STARSHIP_CONFIG = "$HOME\.config\starship\starship.toml"
 Invoke-Expression (& starship init powershell)
 
 # -- Completions -----------------------------------------------------------------------
