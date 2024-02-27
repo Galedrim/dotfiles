@@ -1,19 +1,60 @@
+[aws]
+symbol = "  "
+
+[c]
+symbol = " "
+
+[conda]
+symbol = " "
+
+[dart]
+symbol = " "
+
 [directory]
+read_only = " 󰌾"
 truncation_length = 6
 truncate_to_repo = true
-disabled = false
 
-[line_break]
-disabled = false
+[docker_context]
+symbol = " "
 
-[username]
-style_root = "bold red"
-style_user = "bold yellow"
-show_always = false
-disabled = false
+[git_branch]
+symbol = " "
+
+[hostname]
+ssh_symbol = " "
+
+[java]
+symbol = " "
+
+[lua]
+symbol = " "
+
+[memory_usage]
+symbol = "󰍛 "
+
+[nodejs]
+symbol = " "
 
 [os]
 disabled = false
-format = "$symbol "
-symbols.Ubuntu = "[](orange)"
-symbols.Windows = "[](blue)"
+
+[os.symbols]
+Ubuntu = "[ ](orange)"
+Windows = "[󰍲 ](blue)"
+Unknown = " "
+
+[package]
+symbol = "󰏗 "
+
+[php]
+symbol = " "
+
+[python]
+symbol = " "
+
+[rust]
+symbol = " "
+
+[username]
+disabled = true
